@@ -38,8 +38,6 @@
     [super viewDidLoad];
     //NSLog(@"%@", [NSLocale availableLocaleIdentifiers]);
     // Do any additional setup after loading the view, typically from a nib.
-    
-    self.tableView.tableHeaderView = self.headView;
 }
 
 -(void)dateChanged:(id)sender{
