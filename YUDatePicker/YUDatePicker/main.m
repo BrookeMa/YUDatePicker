@@ -2,7 +2,7 @@
 //  main.m
 //  YUDatePicker
 //
-//  Created by yuzhx on 15/4/12.
+//  Created by BruceYu on 15/4/12.
 //  Copyright (c) 2015年 BruceYu. All rights reserved.
 //
 
