@@ -112,6 +112,13 @@
     for (int i = 1; i <= num; i++) {
         [_dayArray addObject:[NSString stringWithFormat:@"%02d",i]];
     }
+    /**
+     *  Fix Bug
+     */
+    if (self.dayIndex >= [_dayArray count]) {
+        self.dayIndex = [_dayArray count] - 1;
+    }
+    
     return _dayArray;
 }
 
